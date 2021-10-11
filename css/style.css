@@ -1,0 +1,38 @@
+body {
+  background-color: #621402;
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+.header {
+  display: flex;
+  align-items: center;
+  padding: 30px 0;
+}
+.menu {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  margin-left: 17px;
+}
+.menu-item:not(:last-child) {
+  margin-right: 25px;
+}
+.menu-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+.user {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.avatar {
+  height: 33px;
+  width: 33px;
+  border-radius: 50%;
+  margin-left: 11px;
+}
